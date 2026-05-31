@@ -13,7 +13,7 @@ orb = cv2.ORB_create(nfeatures=1000)
 bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
 
 # Load gambar template referensi
-img_ref = cv2.imread('template-uang.png')
+img_ref = cv2.imread('image/template-uang.png')
 
 if img_ref is None:
     print("Error: Gambar template_uang tidak ditemukan!")
